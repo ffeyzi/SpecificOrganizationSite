@@ -9,7 +9,7 @@
  * ******************************************************************** */
 body {
 	background-color: #ffffff;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -29,6 +29,7 @@ a {
 }
 #tkelogo {
 	float: left;
+	margin-left: 30px;
 }
 
 #tketextlogo {
@@ -36,6 +37,18 @@ a {
 	color: white;
 }
 
+#tketextlogo h3, #tketextlogo h4 {
+	text-align: center;
+}
+
+#tketextlogo h3 {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+#tketextlogo h4 {
+	margin-top: 10px;
+}
 #wrapper {
 	clear: both;
 }
@@ -49,6 +62,7 @@ nav {
   margin:20px 0 0;
   float: right;
   color: white;
+  margin-right: 30px;
 }
 
 nav ul {
@@ -65,6 +79,17 @@ nav a {
 	color:white;
   font-size: 20px;
   padding: 15px 10px;
+}
+
+/*nav link*/
+/* the second one is for when people click. its called a psuedo class*/
+nav a, nav a:visited {
+  color: white;
+}
+
+/*anytime we hover over that link, it will change color*/
+nav a.selected, nav a:hover {
+  color: #999999;
 }
 
 footer {
