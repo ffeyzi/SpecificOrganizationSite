@@ -1,7 +1,7 @@
 /* ******************************************************************** *
  * ********************* General Styles + Colors ********************** *
 
-		Cherry Red: ##991a1e;
+		Cherry Red: #991a1e;
 		Grey: #999999;
 		Light Grey: #eaeaea;
 		Dark Grey: #2a2a2a;
@@ -9,6 +9,12 @@
  * ******************************************************************** */
 body {
 	background-color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+	background-color: #991a1e;
+	height: 100px;
 }
 
 #wrapper {
@@ -17,4 +23,50 @@ body {
 
 a {
 	text-decoration: none;
+}
+#overallLogo {
+	position: relative;
+}
+#tkelogo {
+	float: left;
+}
+
+#tketextlogo {
+	float: left;
+	color: white;
+}
+
+#wrapper {
+	clear: both;
+}
+/*****************************
+Navigation
+*****************************/
+
+nav {
+  text-align: center;
+  padding:10px 0;
+  margin:20px 0 0;
+  float: right;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px; 
+  padding: 0;
+}
+
+nav li {
+ display: inline-block;
+}
+
+nav a {
+	color:white;
+  font-size: 20px;
+  padding: 15px 10px;
+}
+
+footer {
+	text-align: center;
 }
