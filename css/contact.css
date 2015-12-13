@@ -1,0 +1,70 @@
+/* ******************************************************************** *
+ * ********************* General Styles + Colors ********************** *
+
+		Cherry Red: #991a1e;
+		Grey: #999999;
+		Light Grey: #eaeaea;
+		Dark Grey: #2a2a2a;
+
+ * ******************************************************************** */
+body {
+	background-color: #ffffff;
+}
+
+#ContactForm {
+	background-color: #991a1e;
+	max-width: 750px;
+	margin: 30px auto 0 auto;
+}
+
+form {
+	width: 700px;
+	margin: 0 auto;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+.inputStyle {
+	display: block;
+	margin-bottom: 10px;
+}
+
+textarea {
+	width: 650px;
+} 
+
+footer {
+}
+
+#errorMessage {
+	display: none;
+}
+
+/* Media Query for when the size of the screen goes mobile */
+@media screen and (max-width: 400px) {
+	body {
+		background-color: #991a1e;
+	}
+	section {
+		background-color: #991a1e;
+	}
+	#errorMessage {
+		display: block;
+		color: white;
+		font-size: 20px;
+		margin-left: 3px;
+		margin-right: 3px;
+		text-align: center;
+	}
+	#tketextlogo {
+		display: none;
+	}
+	#ContactForm {
+		display: none;
+	}
+}
