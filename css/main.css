@@ -23,7 +23,7 @@ section {
 }
 
 .wrapper {
-	max-width: 940px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -109,6 +109,8 @@ nav a.selected, nav a:hover {
 	text-align: center;
 	font-size: 75px;
 	color: #991a1e;
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 footer {
@@ -117,6 +119,7 @@ footer {
 	color: #991a1e;
 	padding: 16px 0 16px 0;
 	font-size: 12px;
+	clear: both;
 }
 
 #errorMessage {
