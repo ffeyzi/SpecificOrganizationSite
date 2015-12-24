@@ -3,11 +3,13 @@
 //Author: Fred Feyzi
 
 var width = 900;
-var pauseTime = 3000;
+var pauseTime = 4000;
 
 //cache DOM
 var $slider = $('#slider');
+//the ul element.
 var $slidesContainer = $slider.find('.slides');
+//each individual slide
 var $slides = $slidesContainer.find('.slide');
 
 $(function() {
