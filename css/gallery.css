@@ -1,0 +1,35 @@
+/* ******************************************************************** *
+ * ********************* General Styles + Colors ********************** *
+
+		Cherry Red: #991a1e;
+		Grey: #999999;
+		Light Grey: #eaeaea;
+		Dark Grey: #2a2a2a;
+
+ * ******************************************************************** */
+#mainTitle {
+	text-align: center;
+}
+
+#slider {
+	width: 900px;
+	height: 600px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.slides {
+	display: block;
+	width: 6000px;
+	height: 600px;
+	margin: 0;
+	padding: 0;
+}
+
+.slide {
+	float: left;
+	list-style: none;
+	width: 900px;
+	height: 600px;
+}
