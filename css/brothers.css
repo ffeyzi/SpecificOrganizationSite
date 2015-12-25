@@ -1,20 +1,24 @@
+#mainTitle {
+	text-align: center;
+}
+
 #overallGridContainer {
 
 }
 
 .grid {
-	padding: 20px 20px 50px 20px;
-	max-width: 1300px;
+	max-width: 1080px;
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
+	padding-left: 0;
 }
 
 .grid li {
 	display: inline-block;
-	width: 440px;
+	width: 250px;
 	margin: 0;
-	padding: 20px;
+	padding: 5px; 
 	text-align: left;
 	position: relative;
 }
@@ -35,7 +39,7 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #C0392B;
+	background: #991a1e;
 	color: white;
 }
 
