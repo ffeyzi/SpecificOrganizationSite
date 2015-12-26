@@ -1,49 +1,90 @@
-#mainTitle {
+/* ******************************************************************** *
+ * ********************* General Styles + Colors ********************** *
+
+		Cherry Red: #991a1e;
+		Grey: #999999;
+		Light Grey: #eaeaea;
+		Dark Grey: #2a2a2a;
+
+ * ******************************************************************** */
+
+ #mainTitle {
 	text-align: center;
+	color: #2a2a2a;
 }
 
 #overallGridContainer {
 
 }
 
+/* For the overall grid */
 .grid {
-	max-width: 1080px;
-	margin: 0 auto;
-	list-style: none;
-	text-align: center;
+	padding-bottom: 50px;
 	padding-left: 0;
+	max-width: 1080px;
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .grid li {
-	display: inline-block;
-	width: 250px;
-	margin: 0;
-	padding: 5px; 
+	display: inline-block; /* This was done in order to center from parent */
+	width: 200px;
+	margin: 0px;
+	padding: 10px;
 	text-align: left;
-	position: relative;
+	position: relative; /* So we can use the z-index */
 }
 
 .grid figure {
-	margin: 0;
+	border-radius: 100%;
 	position: relative;
+	margin: 0;
 }
 
 .grid figure img {
 	max-width: 100%;
 	display: block;
 	position: relative;
+	border-radius: 100%;
 }
 
 .grid figcaption {
 	position: absolute;
-	top: 0;
+	text-align: center;
+	top: 0; 
 	left: 0;
-	padding: 20px;
-	background: #991a1e;
+	border-radius: 100%;
+	padding: 0px;
+	background-color: #991a1e;
 	color: white;
 }
 
-.specificStyle figure img {
+.grid figcaption h3{
+	margin: 0;
+	padding: 0;
+	color: #eaeaea;
+}
+
+.custom figure img {
 	z-index: 10;
 	transition: transform 0.4s;
+}
+
+.custom figure:hover img {
+	transform: scale(0.4);
+}
+
+.custom figcaption {
+	height: 200px;
+	width: 200px;
+	opacity: 0;
+	transform: scale(0.2);
+	backface-visibility: hidden;
+	transition: transform 0.4s, opacity 0.4s;
+}
+
+.custom figure:hover figcaption {
+	transform: scale(1);
+	opacity: 1;
 }
