@@ -1,0 +1,32 @@
+/* ******************************************************************** *
+ * ********************* General Styles + Colors ********************** *
+
+		Cherry Red: #991a1e;
+		Grey: #999999;
+		Light Grey: #eaeaea;
+		Dark Grey: #2a2a2a;
+
+ * ******************************************************************** */
+
+section {
+	margin: 0 auto;
+	height: auto;
+ 	max-width: 960px;
+}
+
+ section h1 {
+ 	color: #2a2a2a;
+ 	text-align: center;
+ }
+
+ section h2 {
+ 	color: #991a1e;
+ }
+
+ section h3 {
+ 	color: #999999;
+ }
+
+ footer {
+ 	width: 100%;
+}
