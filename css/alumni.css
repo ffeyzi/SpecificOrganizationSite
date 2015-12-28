@@ -1,0 +1,72 @@
+/* ******************************************************************** *
+ * ********************* General Styles + Colors ********************** *
+
+		Cherry Red: #991a1e;
+		Grey: #999999;
+		Light Grey: #eaeaea;
+		Dark Grey: #2a2a2a;
+
+ * ******************************************************************** */
+ h1 {
+ 	text-align: center;
+ 	color: #2a2a2a;
+ }
+
+ .mainDiv {
+ 	max-width: 960px;
+ 	margin: 0 auto;
+ 	margin-bottom: 20px;
+ 	margin-top: 30px;
+ 	position: relative;
+ }
+
+ .mainDiv .eachPerson {
+ 	background-color: #999999;
+ 	max-width: 960px;
+ 	height: 75px;
+ 	position: relative;
+ 	margin-bottom: 30px;
+ }
+
+ .mainDiv .eachPerson .specificPerson {
+ 	height: 75px;
+ 	width: 75px;
+ 	margin: 0;
+ 	padding: 0;
+ 	position: absolute;
+ 	display: inline-block;
+ }
+
+ .itemContainer {
+ 	padding-left: 0;
+ 	margin: 0;
+ 	position: absolute;
+ 	left: 75px;
+ 	background-color: #999999;
+ }
+
+ .itemContainer:hover, .eachPerson:hover {
+ 	background-color: #991a1e;
+ }
+
+ .items {
+ 	margin: 0;
+ 	list-style: none;
+ 	width: 295px;
+ 	float: left;
+ 	display: block;
+ }
+
+ .items h6 {
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ 	text-align: center;
+ 	color: white;
+ 	font-size: 18px;
+ 	font-weight: normal;
+ }
+
+ footer {
+ 	display: block;
+ 	width: 100%;
+ }
