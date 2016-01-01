@@ -43,6 +43,10 @@ footer {
 	margin-top: 20px;
 }
 
+.error {
+	color: white;
+}
+
 #errorMessage {
 	display: none;
 }

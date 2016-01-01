@@ -39,15 +39,16 @@
 				</nav>
 			</div> <!-- end redBar. Everything is now out of the redBar -->
 		</header>
+
 		<p id="errorMessage">Website not optimized for mobile, we are so sorry for the inconvenience.</p>
 		<div id="ContactForm">
 			<form action="contactForm.php" method="post">
 			<!-- personal note: action is where the data is going to be sent to -->
 				<h2>Contact Us</h2>
-				<input class="inputStyle" type="text" name="nameField" placeholder="Your Name"/>
-				<input class="inputStyle" type="email" name="emailField" placeholder="Your Email" />
-				<input class="inputStyle" type="text" name="subjectField" placeholder="Subject" />
-				<textarea placeholder="Type Message"></textarea>
+				<input class="inputStyle" type="text" name="nameField" placeholder="Your Name"/><span class="error"><?php echo $nameError ?></span>
+				<input class="inputStyle" type="email" name="emailField" placeholder="Your Email" /><span class="error"><?php echo $emailError ?></span>
+				<input class="inputStyle" type="text" name="subjectField" placeholder="Subject" /><span class="error"><?php echo $subjectError ?></span>
+				<textarea placeholder="Type Message" name="commentField"></textarea><span class="error"><?php echo $messageError ?></span>
 				<input type="submit" value="Send"/>
 			</form>
 		</div>
