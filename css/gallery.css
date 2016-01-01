@@ -34,3 +34,13 @@
 	width: 900px;
 	height: 600px;
 }
+
+/* Media Query for when the size of the screen goes mobile */
+@media screen and (max-width: 400px) {
+	#mainTitle {
+		display: none;
+	}
+	#slider {
+		display: none;
+	}
+}

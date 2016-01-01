@@ -70,3 +70,22 @@ footer {
 	width: 100%;
 }
 
+
+/* Media Query for when the size of the screen goes mobile */
+@media screen and (max-width: 400px) {
+	.section2 {
+		display: none;
+	}
+	.section1 {
+		display: none;
+	}
+	.section3 {
+		display: none;
+	}
+}
+
+
+
+
+
+

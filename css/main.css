@@ -153,4 +153,7 @@ footer p {
 	nav ul {
 		display: none;
 	}
+	#textField {
+		display: none;
+	}
 }
